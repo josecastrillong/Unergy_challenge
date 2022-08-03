@@ -1,13 +1,29 @@
-.nav{
+.nav__container{
   display: flex;
-  justify-content: flex-end;
   align-items: center;
   flex-direction: row;
   gap: 2rem;
   padding-right: 2rem;
-  height: 3rem;
+  height: 5rem;
   color: white;
   background-color: black;
+}
+
+.nav{
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-direction: row;
+  gap: 10%;
+  padding-right: 2rem;
+}
+
+.description_title{
+  padding-left: 9rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: white;
 }
 
 .text_link{

@@ -3,16 +3,21 @@ import styles from 'components/Organisms/Navbar/Navbar.module.css';
 
 function Navbar() {
   return (
-    <nav className={styles.nav}>
-      <NavLink className={styles.text_link} to="/">
-        Home
-      </NavLink>
-      <NavLink className={styles.text_link} to="/">
-        Products
-      </NavLink>
-      <NavLink className={styles.text_link} to="/">
-        About
-      </NavLink>
+    <nav className={styles.nav__container}>
+        <div className={styles.nav__logo}>
+          <span className={styles.description_title}>Unergy</span>
+        </div>     
+      <div className={styles.nav}>
+        <NavLink className={styles.text_link} to="/">
+          Home
+        </NavLink>
+        <NavLink className={styles.text_link} to="/">
+          Products
+        </NavLink>
+        <NavLink className={styles.text_link} to="/">
+          About
+        </NavLink>
+      </div>
     </nav>
   );
 }
