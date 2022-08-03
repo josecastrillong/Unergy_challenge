@@ -1,9 +1,13 @@
+/* eslint-disable react/jsx-filename-extension */
 import './App.css';
-import Projects from 'components/Organisms/ProjectContainer/Projects';
+import Home from 'components/pages/Home/Home';
+import { Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
-      <Projects />
+    <Routes>
+      <Route path="/" element={<Home />} />
+    </Routes>
   );
 }
 
