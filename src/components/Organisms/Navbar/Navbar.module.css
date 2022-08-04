@@ -1,8 +1,8 @@
 @media (max-width: 768px) {
-  p::first-letter{
+  .description_title::first-letter{
     text-transform: uppercase;
-    font-size: large;
-    color: 44E391;
+    font-size: 2rem;
+    color: #44E391;
   }
   .nav__container{
     position: fixed;
@@ -13,14 +13,12 @@
     gap: 50%;
     height: 5rem;
     color: white;
-    background-color: black;
+    background-color: #1A112E;
     z-index: 999;	
   }
 
-  .links .links--visible{
-    display: flex;
-    flex-direction: column;
-    color: white;
+  .links{
+    display: none;
   }
 
   .description_title{

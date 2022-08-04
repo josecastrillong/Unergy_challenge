@@ -5,13 +5,19 @@ import styles from './Footer.module.css';
 
 
 function Footer() {
-  <footer className={styles.foooter}>
-    <div>
-      <InstagramIcon />
-      <LinkedInIcon />
-      <TwitterIcon />
-    </div>
-  </footer>
+  return (
+    <footer className={styles.footer}>
+      <a href="https://www.instagram.com/unergyco/" target="_blank" rel="noreferrer">
+        <InstagramIcon style={{ fontSize: 50}}/>
+      </a>
+      <a href="https://www.linkedin.com/company/unergyio/" target="_blank" rel="noreferrer">
+        <LinkedInIcon style={{ fontSize: 50}}/>
+      </a>
+      <a href="https://twitter.com/unergyio" target="_blank" rel="noreferrer">
+        <TwitterIcon style={{ fontSize: 50}}/>
+      </a>
+    </footer>
+  );
 }
 
 export default Footer;

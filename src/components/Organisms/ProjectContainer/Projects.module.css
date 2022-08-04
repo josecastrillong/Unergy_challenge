@@ -6,6 +6,8 @@
   justify-content: space-around;
   color:#1A112E;
   padding: 0.5rem;
+  padding-bottom: 2rem;
+  padding-top: 2rem;
   row-gap: 1rem;
 }
 
@@ -22,6 +24,11 @@
   flex-direction: column;
   justify-content: space-between;
   gap: 2rem;
+}
+
+.card:hover{
+  box-shadow: 0px 0px 10px #D2C2F3;
+  transform: scale(1.05);
 }
 
 .project_name{

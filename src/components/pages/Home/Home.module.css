@@ -1,4 +1,9 @@
 .home{
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.home > * {
+  width: 100vw;
 }

@@ -14,7 +14,7 @@ function Banner() {
         <span>
           Conoce más sobre nosotros
         </span>
-        <a href="https://unergy.io/nosotros" target="_blank" rel="noreferrer">
+        <a href="https://unergy.io/nosotros" target="_blank" rel="noreferrer" className={styles.link}>
           <SolarPowerIcon  style={{ fontSize: 200}}/>
         </a>
       </div>

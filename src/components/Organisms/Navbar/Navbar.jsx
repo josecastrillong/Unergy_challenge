@@ -11,8 +11,6 @@ function Navbar() {
   const toggle = () => {
     setToggled(!istoggled);
   }
-  
-  const linksClass = `links${istoggled ? 'links--visible' : '' }`;
 
   return (
     <nav className={styles.nav__container}>
@@ -23,7 +21,7 @@ function Navbar() {
         <div type='button' className={styles.menu_button}>
           <MenuIcon onClick={toggle} />
         </div>  
-        <div className={linksClass}>
+        <div className={styles.links}>
           <NavLink className={styles.text_link} to="/">
             Home
           </NavLink>
