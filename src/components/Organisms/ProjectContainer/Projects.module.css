@@ -1,0 +1,61 @@
+.card_container{
+  background-color: #1a112e;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  color:#1A112E;
+  padding: 0.5rem;
+  row-gap: 1rem;
+}
+
+.card{
+  max-width: 400px;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0px 0px 10px #D2C2F3;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.project_name{
+  position: absolute;
+  border-radius: 7px 15px 15px 0;
+  padding: 10px;
+  margin-top: 5px;
+  background: #D2C2F3;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+img{
+  width: 100%;
+  height: auto;
+  border-radius: 1rem;
+}
+
+.project_description{
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.info_section{
+  width: 11rem;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 1rem;
+}
+
+.icon{
+  color: #44E391;
+}

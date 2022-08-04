@@ -1,4 +1,5 @@
 .body{
+  color: #1A112E;
   display: flex;
   flex-direction: row;
   justify-content: center;
@@ -10,7 +11,7 @@
 
 a{
   text-decoration: none;
-  color: black;
+  color: #1A112E;
 }
 .description{
   display: flex;
@@ -24,7 +25,11 @@ a{
 }
 
 .description_text{
+  font-size: 1.5rem;
   max-width: 30rem;
+  line-height: 3rem;
+  text-align: center;
+  padding-right: 10%;
 }
 
 .links_section{
