@@ -8,14 +8,13 @@ import styles from "./Projects.module.css";
 
 function Projects() {
 
-  const { data = [], isLoading, isError, error } = useQuery(['projects'], getProjects);
+  const { data = [], isLoading, isError } = useQuery(['projects'], getProjects);
 
   if (isLoading) {
     return <div>Loading...</div>;
   }
 
   if (isError) {
-    console.log(error);
     return <div>Error</div>;
   }
 
